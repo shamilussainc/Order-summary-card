@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: var(--primary-pale-blue);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+}
+
+body main {
+  min-height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .component-order-summary {
+  max-width: 390px;
+  margin: 3rem 1rem;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 35px 80px -37px #b7b6b6;
+          box-shadow: 0 35px 80px -37px #b7b6b6;
+}
+
+body main .component-order-summary .illustration {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  line-height: 0;
+}
+
+body main .component-order-summary .illustration img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+body main .component-order-summary .content {
+  padding: 2rem;
+}
+
+body main .component-order-summary .content .title h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+body main .component-order-summary .content .description {
+  margin: 1rem;
+}
+
+body main .component-order-summary .content .description p {
+  color: var(--desaturated-blue);
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+body main .component-order-summary .content .plan-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--very-pale-blue);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+body main .component-order-summary .content .plan-section .icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 0;
+}
+
+body main .component-order-summary .content .plan-section .plan-detail {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+body main .component-order-summary .content .plan-section .plan-detail .title span {
+  color: var(--dark-blue);
+  font-weight: 800;
+}
+
+body main .component-order-summary .content .plan-section .plan-detail .rate span {
+  color: var(--desaturated-blue);
+}
+
+body main .component-order-summary .content .plan-section .change-plan {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body main .component-order-summary .content .plan-section .change-plan a {
+  font-weight: bold;
+}
+
+body main .component-order-summary .content .plan-section .change-plan a:hover {
+  text-decoration: none;
+  color: #787af0;
+}
+
+body main .component-order-summary .content .proceed-to-payment a {
+  background-color: var(--primary-bright-blue);
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  font-weight: 900;
+  font-size: 1em;
+  margin: 2rem 0;
+  -webkit-box-shadow: 0 14px 38px -3px #b7b6b6;
+          box-shadow: 0 14px 38px -3px #b7b6b6;
+}
+
+body main .component-order-summary .content .proceed-to-payment a:hover {
+  background-color: #787af0;
+}
+
+body main .component-order-summary .content .cancel-order {
+  text-align: center;
+}
+
+body main .component-order-summary .content .cancel-order a {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  font-size: 1em;
+}
+
+body main .component-order-summary .content .cancel-order a:hover {
+  color: var(--dark-blue);
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+body .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
