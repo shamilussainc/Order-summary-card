@@ -60,4 +60,4 @@ In this project i have learned to position and change background images based on
 
 - Linkedin - [Shamil ussain c](https://www.linkedin.com/in/shamil-ussain-c-893282187/)
 - Frontend Mentor - [@shamilussainc](https://www.frontendmentor.io/profile/shamilussainc)
-- Twitter - [@c_ussain](https://www.twitter.com/yourusername)
+- Twitter - [@c_ussain](https://twitter.com/c_ussain)
