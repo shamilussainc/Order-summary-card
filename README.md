@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
 - Live Site URL: [https://shamilussainc.github.io/Order-summary-card/](https://shamilussainc.github.io/Order-summary-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-component-using-flexbox-and-sass-bFZ5S0d40](https://www.frontendmentor.io/solutions/order-summary-card-component-using-flexbox-and-sass-bFZ5S0d40)
 
 ## My process
 
